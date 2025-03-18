@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.summary-head {
+  color: #616e7c;
+  font-size: 30px;
+}
+.summary-para {
+  color: #616e7c;
+}
+.class-summary-view {
+  font-family: 'roboto';
+  display: flex;
+  justify-content: flex-end;
+}
+span {
+  color: black;
+}
+.Checkout-btn {
+  color: white;
+  background-color: #0b69ff;
+  width: 100%;
+  padding: 7px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .class-summary-view {
+    font-family: 'roboto';
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
+  .summary-head {
+    color: #616e7c;
+    font-size: 16px;
+  }
+}
